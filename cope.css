@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(94, 110, 133);
+    color: white;
+}
+
+.topLinks {
+    text-align: right;
+    color: white;
+    font-size: 2vw;
+}
+
+.topLinks a {
+    color: white;
+    margin-right: 1vw;
+}
