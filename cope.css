@@ -1,10 +1,21 @@
-body {
-    background-color: rgb(94, 110, 133);
+body,
+html {
+    background-color: rgb(169, 124, 72);
     color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
 }
 
 .topLinks {
-    text-align: right;
+    text-align: center;
     color: white;
     font-size: 2vw;
 }
@@ -12,4 +23,17 @@ body {
 .topLinks a {
     color: white;
     margin-right: 1vw;
+}
+
+.logo {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.genInfo {
+    display: flex;
+    text-align: justify;
 }
