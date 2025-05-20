@@ -27,13 +27,13 @@ html {
     transition: transform .15s ease;
     background-color: white;
     padding-bottom: 1.5vw;
+    padding-top: 1vw;
 }
 
 .topMenuTabs a:hover {
-    transform: translateY(.5vw);
-    padding-bottom: 2vw;
+    transform: translateY(1vw);
     background-color: rgb(179, 179, 179);
-    padding-top: .2vw;
+
 }
 
 h1 {
