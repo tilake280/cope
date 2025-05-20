@@ -7,7 +7,33 @@ html {
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2vw;
-    margin-bottom: 2vh;
+}
+
+.topMenu {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.topMenuTabs {
+    margin-left: auto;
+}
+
+.topMenuTabs a {
+    display: inline-block;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    color: rgb(0, 0, 0);
+    transition: transform .15s ease;
+    background-color: white;
+    padding-bottom: 1.5vw;
+}
+
+.topMenuTabs a:hover {
+    transform: translateY(.5vw);
+    padding-bottom: 2vw;
+    background-color: rgb(179, 179, 179);
+    padding-top: .2vw;
 }
 
 h1 {
@@ -15,13 +41,16 @@ h1 {
     font-size: 3vw;
 }
 
-.topLinks {
+.bottomLinks {
     text-align: center;
     color: white;
     font-size: 2vw;
+    background-color: black;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 
-.topLinks a {
+.bottomLinks a {
     color: white;
     margin-right: 1vw;
 }
