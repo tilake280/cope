@@ -81,8 +81,7 @@ h1 {
 
 
 .blogImgs {
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 .blogImgs img {
