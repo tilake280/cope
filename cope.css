@@ -82,8 +82,9 @@ h1 {
 
 .blogImgs {
     display: flex;
+    align-items: center;
 }
 
 .blogImgs img {
-    height: 70vh;
+    width: 50vw;
 }
